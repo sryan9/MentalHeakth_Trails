@@ -86,7 +86,7 @@
   //Make sure and change your authorname in the attribute information
 
   // 4. build up a set of colors from colorbrewer's dark2 category
-  var colors = chroma.scale('Dark2').mode('lch').colors(3);
+  var colors = chroma.scale('Accent').mode('lch').colors(3);
 
   // 5. dynamically append style classes to this page. The style classes will be used to shade the markers.
   // We can use a for loop to do this.
@@ -114,7 +114,7 @@
   }).addTo(mymap);
 
   // 6. Set function for color ramp
-  colors = chroma.scale('Blues').colors(5); //we'll use 5 classes of purples
+  colors = chroma.scale('RdPu').colors(5); //we'll use 5 classes of purples
 
   // this function manually defines your choropleth classification system
   //so you'll need to figure out which break points you'd like to use
@@ -173,7 +173,7 @@
       //notice the names of the Airbnb property types listed within the <p> tags at the end of the lines
       div.innerHTML += '<i class="fas fa-hiking marker-color-1"></i><p>Under 1km</p>';
       div.innerHTML += '<i class="fas fa-hiking marker-color-2"></i><p>1-3km</p>';
-      div.innerHTML += '<i class="fas fa-hiking marker-color-3"></i><p>OVer 3km</p>';
+      div.innerHTML += '<i class="fas fa-hiking marker-color-3"></i><p>Over 3km</p>';
       // Return the Legend div containing the HTML content
       return div;
   };
