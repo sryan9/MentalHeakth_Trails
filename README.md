@@ -1,8 +1,6 @@
 # MentalHealth_Trails
-Bivariate map illustrating mental health cases per 100,000 people and trailheads.
-
 _Mental Health and Trail Access in North Carolina_
-
+Bivariate map illustrating mental health cases per 100,000 people and trailheads.
 
 #### This bivariate map illustrates mental heath emergency department visits per 100,000 people. Mental Heath ED visits are presented for each ZIP Code in North Carolina. 
 
